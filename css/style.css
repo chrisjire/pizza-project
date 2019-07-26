@@ -1,0 +1,58 @@
+@media screen and (min-width: 450px) and (max-width: 760px) {
+    body  {
+      background-color: white;
+      color: white;
+    }
+  }
+
+.head   {
+    background-image: url(https://images.unsplash.com/photo-1536964549204-cce9eab227bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80);    
+    height: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: hidden;
+    background-color: yellow;
+    color: yellow;
+  }
+.navigation li  {
+    float: left;
+}
+.navigation li a  {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: red;
+}
+.navigation li  {
+    border-bottom: 1px solid black;
+}
+
+.navigation .active {
+    background-color: red ;
+    color: white;
+}
+.navigation li a:hover:not(.active)  {
+    background-color: red;
+    color: white;
+}
+
+.head h1    {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: 'Kaushan Script', cursive;
+}  
+.head img   {
+    height: 130px;
+    width: 130px;
+    margin-left: 35%;
+    margin-top: 3%;
+    
+}                        
