@@ -50,7 +50,7 @@
 .head h1    {
     text-align: center;
     color: white;
-    font-size: 80px;
+    font-size: 100px;
     font-family: 'Kaushan Script', cursive;
 }  
 .head img   {
@@ -62,7 +62,7 @@
 }   
 
 .card   {
-    color: white    ;
+    color: white;
     border: white;
    background-color: none;
     width: 400px;
@@ -71,7 +71,6 @@
     margin: 20px;
     text-align: center;
     border-radius: 25px;
-    opacity: 50%;
 }
 .card img      {
     height: 330px;
@@ -80,12 +79,12 @@
 }
 .menu   {
     text-align: center;
-    background-image: url(https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
 }
 .menu h1    {
-    font-size: 70px;
+    font-size: 80px;
 }
