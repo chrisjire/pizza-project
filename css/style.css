@@ -11,7 +11,7 @@
 
 .head   {
     background-image: url(https://images.unsplash.com/photo-1536964549204-cce9eab227bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80);    
-    height: 850px;
+    height: 890px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,59 +61,31 @@
     
 }   
 
-.card1   {
-    color: white;
-    border: black;
-    background-image: url(https://images.unsplash.com/photo-1542587222-f9172e5eba29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80);
-    width: 500px;
-    border: 1px solid rebeccapurple;
+.card   {
+    color: white    ;
+    border: white;
+   background-color: none;
+    width: 400px;
+    border: 1px solid none;
     padding: 1px;
     margin: 20px;
     text-align: center;
-
+    border-radius: 25px;
+    opacity: 50%;
 }
-.card1 img      {
+.card img      {
     height: 330px;
-    width: 495px;
-    
+    width: 355px;
+    border-radius: 25px;
 }
 .menu   {
     text-align: center;
+    background-image: url(https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 .menu h1    {
     font-size: 70px;
-}
-
-.card2   {
-    color: white;
-    border: black;
-    background-image: url(https://images.unsplash.com/photo-1542587222-f9172e5eba29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80);
-    width: 500px;
-    border: 1px solid rebeccapurple;
-    padding: 1px;
-    margin: 20px;
-    text-align: center;
-
-}
-.card2 img      {
-    height: 330px;
-    width: 495px;
-    
-}
-
-.card3   {
-    color: white;
-    border: black;
-    background-image: url(https://images.unsplash.com/photo-1542587222-f9172e5eba29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80);
-    width: 500px;
-    border: 1px solid rebeccapurple;
-    padding: 1px;
-    margin: 20px;
-    text-align: center;
-
-}
-.card3 img      {
-    height: 330px;
-    width: 495px;
-    
 }
