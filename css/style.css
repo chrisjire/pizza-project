@@ -1,13 +1,13 @@
 @media screen and (min-width: 450px) and (max-width: 760px) {
     body  {
-      background-color: white;
-      color: white;
+    background-color: white;
+    color: white;
     }
-  }
+}
 
-  body  {
-     background-color: aliceblue;
-  }
+body  {
+    background-color: aliceblue;
+}
 
 .head   {
     background-image: url(https://images.unsplash.com/photo-1536964549204-cce9eab227bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80);    
@@ -24,12 +24,12 @@
     width: hidden;
     background-color: yellow;
     color: yellow;
-  }
+}
 .navigation li  {
     float: left;
 }
 .navigation li a  {
-    display: block;
+    display: flex;
     color: white;
     padding: 14px 16px;
     text-decoration: red;
@@ -64,7 +64,7 @@
 .card   {
     color: white;
     border: white;
-   background-color: none;
+    background-color: none;
     width: 400px;
     border: 1px solid none;
     padding: 1px;
@@ -87,4 +87,28 @@
 }
 .menu h1    {
     font-size: 80px;
+    font-family: 'Kaushan Script', cursive;
+}
+#select {
+    background-color: white;
+    color: black;
+    font-family: 'Noto Serif', serif;
+}
+/#choice {
+    text-align: start;
+    font-family: 'Noto Serif', serif;
+}
+#check {
+    margin-top: 10px;
+    color: black;
+    font-family: 'Noto Serif', serif;
+}
+
+#last h1   {
+    font-size: 45px;
+    font-family: 'Kaushan Script', cursive;
+}
+#last p   {
+    font-size: 25px;
+    font-family: 'Noto Serif', serif;
 }
