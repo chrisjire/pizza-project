@@ -202,33 +202,34 @@
                         <div class="card-body">
                             <h4 class="card-title">Meatball pizza</h4>
                                 <p class="card-text">Italian meat balls in red sauce, extra-virgin oil, Fresh basil, Mozzarella cheese, Kosher salt, Pecorino Romano cheese.</p>
-                                <div id="choice">
-                                    <label>Size</label>
-                                    <br>
-                                    <select id="select">
-                                        <option value="small">Small</option>
-                                        <option value="medium">Medium</option>
-                                        <option value="large">Large</option>
-                                    </select>
-                                    <br>
-                                    <label>Crust</label>
-                                    <br>
-                                    <select id="select">
-                                        <option value="crispy">Crispy</option>
-                                        <option value="stuffed">Stuffed</option>
-                                        <option value="gluten-free">Gluten-free</option>
-                                    </select>
-                                    <br>
-                                    <label>Toppings</label>
-                                    <br>
-                                    <select id="select">
-                                        <option value="parmesan cheese">Parmesan cheese</option>
-                                        <option value="pepperoni">pepperoni</option>
-                                    </select>
-                                <div id="check">
-                                    <button type="button">Checkout</button>
-                                </div>
-                                </div>
+                                <button class="btn btn-primary" type="text" name="select"  id="select4" onclick="">select</button>
+                                <div id="hform4">
+                                <form>
+                                <label for="size">Size</label>
+                                <select class="browser-default custom-select" id="size4">
+                                    <option selected>Choose...</option>
+                                    <option value="1050">Small(1050/=)</option>
+                                    <option value="1400">Medium(1400/=)</option>
+                                    <option value="2100">Large(2100/=)</option>
+                                </select><br>
+                                    <label for="crust">Crust</label>
+                                <select class="browser-default custom-select" id="crust4">
+                                    <option selected>Choose...</option>
+                                    <option value="200">Crispy(200/=)</option>
+                                    <option value="600">Stuffed(600/=)</option>
+                                    <option value="400">Gluten-free(400/=)</option>
+                                </select><br>
+                                <label for="toppings" name="toppings">Toppings</label>
+                                <select class="browser-default custom-select" id="toppings4">
+                                    <option selected>Choose...</option>
+                                    <option value="500">Extra Meat balls(500/=)</option>
+                                    <option value="600">Extra Pecorino Romano cheese(600/=)</option>
+                                </select><br>
+                                <label for="quantity">Quantity</label>
+                                    <input class="form-control" type="text" name="pizza" id="quan4" placeholder="0" max="" min="1"><br><br>
+                                <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit4" onclick= "getTotalAmount();" ><strong>Checkout</strong></button>
+                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -241,33 +242,34 @@
                         <div class="card-body">
                             <h4 class="card-title">Margherita pizza</h4>
                                 <p class="card-text">Mozzarella cheese, Parmesan cheese, Fresh basil leaves, extra-virgin oil, Black pepper, Kosher salt, Balsamic vinegar, Fresh tomatoes.</p>
-                                <div id="choice">
-                                    <label>Size</label>
-                                    <br>
-                                    <select id="select">
-                                        <option value="small">Small</option>
-                                        <option value="medium">Medium</option>
-                                        <option value="large">Large</option>
-                                    </select>
-                                    <br>
-                                    <label>Crust</label>
-                                    <br>
-                                    <select id="select">
-                                        <option value="crispy">Crispy</option>
-                                        <option value="stuffed">Stuffed</option>
-                                        <option value="gluten-free">Gluten-free</option>
-                                    </select>
-                                    <br>
-                                    <label>Toppings</label>
-                                    <br>
-                                    <select id="select">
-                                        <option value="parmesan cheese">Parmesan cheese</option>
-                                        <option value="pepperoni">pepperoni</option>
-                                    </select>
-                                <div id="check">
-                                    <button type="button">Checkout</button>
-                                </div>
-                                </div>
+                                <button class="btn btn-primary" type="text" name="select"  id="select5" onclick="">select</button>
+                                <div id="hform5">
+                                <form>
+                                <label for="size">Size</label>
+                                <select class="browser-default custom-select" id="size5">
+                                    <option selected>Choose...</option>
+                                    <option value="1000">Small(1000/=)</option>
+                                    <option value="1200">Medium(1200/=)</option>
+                                    <option value="1600">Large(1600/=)</option>
+                                </select><br>
+                                    <label for="crust">Crust</label>
+                                <select class="browser-default custom-select" id="crust5">
+                                    <option selected>Choose...</option>
+                                    <option value="200">Crispy(200/=)</option>
+                                    <option value="400">Stuffed(400/=)</option>
+                                    <option value="300">Gluten-free(300/=)</option>
+                                </select><br>
+                                <label for="toppings" name="toppings">Toppings</label>
+                                <select class="browser-default custom-select" id="toppings5">
+                                    <option selected>Choose...</option>
+                                    <option value="300">Extra Parmesan cheese(300/=)</option>
+                                    <option value="200">Extra Mozzarella cheese(200/=)</option>
+                                </select><br>
+                                <label for="quantity">Quantity</label>
+                                    <input class="form-control" type="text" name="pizza" id="quan5" placeholder="0" max="" min="1"><br><br>
+                                <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit5" onclick= "getTotalAmount();" ><strong>Checkout</strong></button>
+                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -280,33 +282,34 @@
                         <div class="card-body">
                             <h4 class="card-title">Deep dish pizza</h4>
                                 <p class="card-text">Yellow cornmeal, Parmesan cheese, Mozzarella cheese, Italian sausage, Fresh basil, Crushed tomatoes, Garlic, Red pepper flakes, Pepper, Un-salted Butter, Olive Oil, Red Onions, Dried Oregano.</p>
-                                <div id="choice">
-                                    <label>Size</label>
-                                    <br>
-                                    <select id="select">
-                                        <option value="small">Small</option>
-                                        <option value="medium">Medium</option>
-                                        <option value="large">Large</option>
-                                    </select>
-                                    <br>
-                                    <label>Crust</label>
-                                    <br>
-                                    <select id="select">
-                                        <option value="crispy">Crispy</option>
-                                        <option value="stuffed">Stuffed</option>
-                                        <option value="gluten-free">Gluten-free</option>
-                                    </select>
-                                    <br>
-                                    <label>Toppings</label>
-                                    <br>
-                                    <select id="select">
-                                        <option value="parmesan cheese">Parmesan cheese</option>
-                                        <option value="pepperoni">pepperoni</option>
-                                    </select>
-                                <div id="check">
-                                    <button type="button">Checkout</button>
-                                </div>
-                                </div>
+                                <button class="btn btn-primary" type="text" name="select"  id="select6" onclick="">select</button>
+                                <div id="hform6">
+                                <form>
+                                <label for="size">Size</label>
+                                <select class="browser-default custom-select" id="size6">
+                                    <option selected>Choose...</option>
+                                    <option value="1500">Small(1500/=)</option>
+                                    <option value="1900">Medium(1900/=)</option>
+                                    <option value="2400">Large(2400/=)</option>
+                                </select><br>
+                                    <label for="crust">Crust</label>
+                                <select class="browser-default custom-select" id="crust6">
+                                    <option selected>Choose...</option>
+                                    <option value="500">Crispy(500/=)</option>
+                                    <option value="700">Stuffed(700/=)</option>
+                                    <option value="600">Gluten-free(600/=)</option>
+                                </select><br>
+                                <label for="toppings" name="toppings">Toppings</label>
+                                <select class="browser-default custom-select" id="toppings6">
+                                    <option selected>Choose...</option>
+                                    <option value="500">Extra Italian sausage(500/=)</option>
+                                    <option value="200">Extra Mozzarella cheese(200/=)</option>
+                                </select><br>
+                                <label for="quantity">Quantity</label>
+                                    <input class="form-control" type="text" name="pizza" id="quan6" placeholder="0" max="" min="1"><br><br>
+                                <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit6" onclick= "getTotalAmount();" ><strong>Checkout</strong></button>
+                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
