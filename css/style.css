@@ -25,15 +25,18 @@ body  {
     background-color: yellow;
     color: yellow;
 }
+
 .navigation li  {
     float: left;
 }
+
 .navigation li a  {
     display: flex;
     color: white;
     padding: 14px 16px;
     text-decoration: red;
 }
+
 .navigation li  {
     border-bottom: 1px solid black;
 }
@@ -42,6 +45,7 @@ body  {
     background-color: red ;
     color: white;
 }
+
 .navigation li a:hover:not(.active)  {
     background-color: red;
     color: white;
@@ -53,6 +57,7 @@ body  {
     font-size: 100px;
     font-family: 'Kaushan Script', cursive;
 }  
+
 .head img   {
     height: 130px;
     width: 130px;
@@ -72,11 +77,13 @@ body  {
     text-align: center;
     border-radius: 25px;
 }
+
 .card img      {
     height: 330px;
     width: 355px;
     border-radius: 25px;
 }
+
 .menu   {
     text-align: center;
     background-image: url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
@@ -85,42 +92,54 @@ body  {
     background-size: cover;
     color: white;
 }
+
 .menu h1    {
     font-size: 80px;
     font-family: 'Kaushan Script', cursive;
 }
+
 #last h1   {
     font-size: 45px;
     font-family: 'Kaushan Script', cursive;
 }
+
 #last p   {
     font-size: 25px;
     font-family: 'Noto Serif', serif;
 }
+
 #hform  {
     display: none;
 }
+
 #hform1  {
     display: none;
 }
+
 #hform2  {
     display: none;
 }
+
 #hform3  {
     display: none;
 }
+
 #hform4  {
     display: none;
 }
+
 #hform5  {
     display: none;
 }
+
 #hform6  {
     display: none;
 }
+
 #hform7  {
     display: none;
 }
+
 .browser-default {
     color: black;
     background-color: aliceblue;
