@@ -118,6 +118,9 @@ body  {
 #hform6  {
     display: none;
 }
+#hform7  {
+    display: none;
+}
 .browser-default {
     color: black;
     background-color: aliceblue;

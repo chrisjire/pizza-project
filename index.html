@@ -322,33 +322,35 @@
                         <div class="card-body">
                             <h4 class="card-title">Chocolate pizza</h4>
                                 <p class="card-text">Chocolate-hazelnut spread, Milk chocolate chips, High-quality white chocolate, Toasted hazelnuts, Melted butter, Marshmallows.</p>
-                                <div id="choice">
-                                    <label>Size</label>
-                                    <br>
-                                    <select id="select">
-                                        <option value="small">Small</option>
-                                        <option value="medium">Medium</option>
-                                        <option value="large">Large</option>
-                                    </select>
-                                    <br>
-                                    <label>Crust</label>
-                                    <br>
-                                    <select id="select">
-                                        <option value="crispy">Crispy</option>
-                                        <option value="stuffed">Stuffed</option>
-                                        <option value="gluten-free">Gluten-free</option>
-                                    </select>
-                                    <br>
-                                    <label>Toppings</label>
-                                    <br>
-                                    <select id="select">
-                                        <option value="parmesan cheese">Parmesan cheese</option>
-                                        <option value="pepperoni">pepperoni</option>
-                                    </select>
-                                <div id="check">
-                                    <button type="button">Checkout</button>
-                                </div>
-                                </div>
+                                <button class="btn btn-primary" type="text" name="select"  id="select7" onclick="">select</button>
+                                <div id="hform7">
+                                <form>
+                                <label for="size">Size</label>
+                                <select class="browser-default custom-select" id="size7">
+                                    <option selected>Choose...</option>
+                                    <option value="1550">Small(1550/=)</option>
+                                    <option value="1950">Medium(1950/=)</option>
+                                    <option value="2500">Large(2500/=)</option>
+                                </select><br>
+                                    <label for="crust">Crust</label>
+                                <select class="browser-default custom-select" id="crust7">
+                                    <option selected>Choose...</option>
+                                    <option value="500">Crispy(500/=)</option>
+                                    <option value="700">Stuffed(700/=)</option>
+                                    <option value="600">Gluten-free(600/=)</option>
+                                </select><br>
+                                <label for="toppings" name="toppings">Toppings</label>
+                                <select class="browser-default custom-select" id="toppings7">
+                                    <option selected>Choose...</option>
+                                    <option value="600">Extra Milk chocolate chips(600/=)</option>
+                                    <option value="400">Extra Toasted hazelnuts(400/=)</option>
+                                    <option value="500">Extra Marshmallows(500/=)</option>
+                                </select><br>
+                                <label for="quantity">Quantity</label>
+                                    <input class="form-control" type="text" name="pizza" id="quan7" placeholder="0" max="" min="1"><br><br>
+                                <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit7" onclick= "getTotalAmount();" ><strong>Checkout</strong></button>
+                            </form>
+                            </div> 
                         </div>
                     </div>
                 </div>

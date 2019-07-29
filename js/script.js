@@ -193,6 +193,34 @@ var totalAmount6 = (getSizeValue6() + getCrust6() + getToppings6()) * getQuantit
   alert("You ordered " + getQuantity6() + " pizza(s)." + ""+" Your bill is " + (totalAmount6));
 }
 
+//Seventh
+
+function getSizeValue() {
+  var selectedValue = document.getElementById("size7").value;
+  return parseInt(selectedValue);
+}
+
+function getCrust() {
+  var selectedCrust = document.getElementById("crust7").value;
+  return parseInt(selectedCrust);
+}
+
+
+function getToppings() {
+  var selectedToppings = document.getElementById("toppings7").value;
+  return parseInt(selectedToppings);
+}
+
+function getQuantity() {
+  var selectedQuantity = document.getElementById("quan7").value;
+  return parseInt(selectedQuantity);
+}
+
+function getTotalAmount6() {
+var totalAmount7 = (getSizeValue7() + getCrust7() + getToppings7()) * getQuantity7();
+  alert("You ordered " + getQuantity7() + " pizza(s)." + ""+" Your bill is " + (totalAmount7));
+}
+
 //UI interface
 $(document).ready(function() {
     $("#select").click(function() {
@@ -294,5 +322,20 @@ $(document).ready(function() {
   $("#select6").click(function() {
     $("#hform6").show();
     $("#select6").hide();
+  });
+}); 
+
+//Eighth
+
+$(document).ready(function() {
+  $("#select7").click(function() {
+    $("#select7").show();
+    $("#hform7").hide();
+  });
+});
+$(document).ready(function() {
+  $("#select7").click(function() {
+    $("#hform7").show();
+    $("#select7").hide();
   });
 }); 
