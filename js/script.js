@@ -61,24 +61,24 @@ function getSizeValue() {
 }
 
 function getCrust() {
-  var selectedCrust = document.getElementById("crust1").value;
+  var selectedCrust = document.getElementById("crust2").value;
   return parseInt(selectedCrust);
 }
 
 
 function getToppings() {
-  var selectedToppings = document.getElementById("toppings1").value;
+  var selectedToppings = document.getElementById("toppings2").value;
   return parseInt(selectedToppings);
 }
 
 function getQuantity() {
-  var selectedQuantity = document.getElementById("quan1").value;
+  var selectedQuantity = document.getElementById("quan2").value;
   return parseInt(selectedQuantity);
 }
 
-function getTotalAmount1() {
-var totalAmount1 = (getSizeValue1() + getCrust1() + getToppings1()) * getQuantity1();
-  alert("You ordered " + getQuantity1() + " pizza(s)." + ""+" Your bill is " + (totalAmount1));
+function getTotalAmount2() {
+var totalAmount2 = (getSizeValue2() + getCrust2() + getToppings2()) * getQuantity2();
+  alert("You ordered " + getQuantity2() + " pizza(s)." + ""+" Your bill is " + (totalAmount2));
 }
 
 //UI interface
@@ -96,7 +96,8 @@ $(document).ready(function() {
   });
 
   //second
-  $(document).ready(function() {
+
+$(document).ready(function() {
     $("#select1").click(function() {
       $("#select1").show();
       $("#hform1").hide();
@@ -106,5 +107,20 @@ $(document).ready(function() {
     $("#select1").click(function() {
       $("#hform1").show();
       $("#select1").hide();
+    });
+  });
+
+  //Third
+
+$(document).ready(function() {
+    $("#select2").click(function() {
+      $("#select2").show();
+      $("#hform2").hide();
+    });
+  });
+  $(document).ready(function() {
+    $("#select2").click(function() {
+      $("#hform2").show();
+      $("#select2").hide();
     });
   });

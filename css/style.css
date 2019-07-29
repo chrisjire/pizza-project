@@ -103,6 +103,11 @@ body  {
 #hform1  {
     display: none;
 }
+#hform2  {
+    display: none;
+}
+
+
 .browser-default {
     color: black;
     background-color: aliceblue;
