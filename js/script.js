@@ -81,6 +81,34 @@ var totalAmount2 = (getSizeValue2() + getCrust2() + getToppings2()) * getQuantit
   alert("You ordered " + getQuantity2() + " pizza(s)." + ""+" Your bill is " + (totalAmount2));
 }
 
+//Fourth
+
+function getSizeValue() {
+  var selectedValue = document.getElementById("size3").value;
+  return parseInt(selectedValue);
+}
+
+function getCrust() {
+  var selectedCrust = document.getElementById("crust3").value;
+  return parseInt(selectedCrust);
+}
+
+
+function getToppings() {
+  var selectedToppings = document.getElementById("toppings3").value;
+  return parseInt(selectedToppings);
+}
+
+function getQuantity() {
+  var selectedQuantity = document.getElementById("quan3").value;
+  return parseInt(selectedQuantity);
+}
+
+function getTotalAmount3() {
+var totalAmount3 = (getSizeValue3() + getCrust3() + getToppings3()) * getQuantity3();
+  alert("You ordered " + getQuantity3() + " pizza(s)." + ""+" Your bill is " + (totalAmount3));
+}
+
 //UI interface
 $(document).ready(function() {
     $("#select").click(function() {
@@ -124,3 +152,18 @@ $(document).ready(function() {
       $("#select2").hide();
     });
   });
+
+  //Fourth
+
+  $(document).ready(function() {
+    $("#select3").click(function() {
+      $("#select3").show();
+      $("#hform3").hide();
+    });
+  });
+  $(document).ready(function() {
+    $("#select3").click(function() {
+      $("#hform3").show();
+      $("#select3").hide();
+    });
+  }); 
