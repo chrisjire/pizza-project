@@ -267,7 +267,7 @@ $(document).ready(function() {
 
   //Fourth
 
-  $(document).ready(function() {
+$(document).ready(function() {
     $("#select3").click(function() {
       $("#select3").show();
       $("#hform3").hide();
@@ -282,7 +282,7 @@ $(document).ready(function() {
 
   //Fifth
 
-  $(document).ready(function() {
+$(document).ready(function() {
     $("#select4").click(function() {
       $("#select4").show();
       $("#hform4").hide();
