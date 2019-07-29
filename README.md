@@ -32,3 +32,9 @@
 ### Contact Info:
 
 christianwilliamsjire@gmail.com
+
+## License
+
+this software license under MIT Liecense
+
+Copyright (c) 2019 chris jire
