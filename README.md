@@ -28,3 +28,7 @@
 * BOOTSTRAP
 
 * JQUERY
+
+### Contact Info:
+
+christianwilliamsjire@gmail.com
