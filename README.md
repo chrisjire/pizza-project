@@ -15,3 +15,16 @@
 * inorder to alter or add any piece of code use visual code studio or atom depends on your prefernce
 
 * Link your CSS, JAVASCRIPT, BOOTSTRAP and JQUERY
+
+
+### Tech used
+
+* HTML
+
+* CSS
+
+* JAVASCRIPT
+
+* BOOTSTRAP
+
+* JQUERY
